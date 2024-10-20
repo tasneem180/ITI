@@ -1,0 +1,58 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Lobster&family=Playfair+Display:ital@1&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:wght@300&family=Ruwudu&family=Work+Sans:ital,wght@1,200;1,400;1,500&display=swap');
+*{
+    font-family: 'Croissant One', serif;
+font-family: 'Lobster', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Ruwudu', serif;
+font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* background-color: rgb(187, 187, 187); */
+body{
+    height: 100vh;
+    /* background-image: linear-gradient( 90deg, rgb(48, 48, 108),beige);           
+                                                                 */
+                                                                 
+    background-image: url(img/spare.jpg);  
+    background-size: cover;         
+    background-repeat: no-repeat;                                                  
+    margin: 20px;
+    padding: 10px;
+    display: grid;
+    place-items: center;
+}
+
+
+
+table{
+    width: 400px;
+    height: 150px;
+    margin: 30px;
+    border-color: rgb(0, 0, 0);
+   
+}
+
+  .prices{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 20px;
+  }
+  .prices2{
+    display: flex;
+   justify-content: space-evenly;
+   margin: 10px;
+   margin-left: 20px;
+  
+  }
+
+  .prices3{
+    display: flex;
+    justify-content:space-evenly;
+  }
